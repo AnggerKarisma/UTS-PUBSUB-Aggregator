@@ -14,10 +14,6 @@ docker run -p 8080:8080 uts-aggregator
 # Install dependencies
 pip install -r requirements.txt
 
-# Run server
-uvicorn src.main:app --host 0.0.0.0 --port 8080
-```
-
 ## API Endpoints
 
 ### 1. POST /publish
@@ -144,3 +140,5 @@ curl http://localhost:8080/stats
 ```
 
 Container health check otomatis berjalan setiap 30 detik.
+
+video Demo : https://youtu.be/NZUQqY7988o
